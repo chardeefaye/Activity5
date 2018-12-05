@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#616161</color>
+    <color name="grey">#FF616161</color>
+    <color name="mednytblu">#FF030827</color>
+    <color name="anadablu">#FF030717</color>
+    <color name="whyt">#FFFF</color>
+    <color name="bckgColor">#051368</color>
+    <color name="textColor2nd">#FF3741FE</color>
+    <color name="black">#FF000000</color>
+</resources>
