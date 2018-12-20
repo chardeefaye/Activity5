@@ -18,7 +18,7 @@
         android:layout_marginBottom="8dp"
         android:background="@color/whyt"
         android:orientation="vertical"
-        android:weightSum="50"
+        android:weightSum="6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="10"
+            android:layout_weight="1"
             android:orientation="horizontal"
             android:weightSum="3">
 
@@ -159,7 +159,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="10"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <Button
@@ -205,12 +205,22 @@
                 android:onClick="setName"
                 android:text="@string/btn2ndAct"
                 android:textColor="@color/whyt" />
+
+            <Button
+                android:id="@+id/i1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btndesign"
+                android:onClick="setName"
+                android:text="@string/btn2ndAct"
+                android:textColor="@color/whyt" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="10"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <Button
@@ -256,12 +266,22 @@
                 android:onClick="setName"
                 android:text="@string/btn2ndAct"
                 android:textColor="@color/whyt" />
+
+            <Button
+                android:id="@+id/i2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btndesign"
+                android:onClick="setName"
+                android:text="@string/btn2ndAct"
+                android:textColor="@color/whyt" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="10"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <Button
@@ -307,12 +327,22 @@
                 android:onClick="setName"
                 android:text="@string/btn2ndAct"
                 android:textColor="@color/whyt" />
+
+            <Button
+                android:id="@+id/j1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btndesign"
+                android:onClick="setName"
+                android:text="@string/btn2ndAct"
+                android:textColor="@color/whyt" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="10"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <Button
@@ -358,7 +388,79 @@
                 android:onClick="setName"
                 android:text="@string/btn2ndAct"
                 android:textColor="@color/whyt" />
+
+            <Button
+                android:id="@+id/j2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btndesign"
+                android:onClick="setName"
+                android:text="@string/btn2ndAct"
+                android:textColor="@color/whyt" />
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/k1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btndesign"
+                android:onClick="setName"
+                android:text="@string/btn2ndAct"
+                android:textColor="@color/whyt" />
+
+            <Button
+                android:id="@+id/k2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btndesign"
+                android:onClick="setName"
+                android:text="@string/btn2ndAct"
+                android:textColor="@color/whyt" />
+
+            <Button
+                android:id="@+id/l1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btndesign"
+                android:onClick="setName"
+                android:text="@string/btn2ndAct"
+                android:textColor="@color/whyt" />
+
+            <Button
+                android:id="@+id/l2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btndesign"
+                android:onClick="setName"
+                android:text="@string/btn2ndAct"
+                android:textColor="@color/whyt" />
+
+            <Button
+                android:id="@+id/j"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btndesign"
+                android:onClick="setName"
+                android:text="@string/btn2ndAct"
+                android:textColor="@color/whyt" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
